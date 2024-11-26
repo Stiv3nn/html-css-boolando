@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+
+/* Intestazione della pagina */
+
+
+/* Barra genere e privacy */
+
+.genere-privacy{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(224, 102, 45);
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.generi{
+    margin-top: 15px;
+}
+.generi a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo{
+    margin-top: 15px;
+}
+
+.fa-regular fa-user{
+    font-size: 15px;
+}
+
+.area-utente{
+    margin-top: 13px;
+    font-size: 20px;
+    color: white;
+}
+
+
+/* E-commerce */
+
+.prodotti-lista{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-left: 200px;
+}
+
+.prodotto{
+    width: 30%;
+    /* height: 100px;
+    background-color: grey; */
+    /* border: 1px solid black; */
+    margin-bottom: 60px;
+    /* margin-right: 10px; */
+    position: relative;
+}
+
+.img-1b{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: none;
+}
+
+.prodotto:hover .img-1b{
+    display: block;
+}
+
+.img-2b{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: none;
+}
+
+.prodotto:hover .img-2b{
+    display: block;
+}
+
+.img-3b{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: none;
+}
+
+.prodotto:hover .img-3b{
+    display: block;
+}
+
+.img-4b{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: none;
+}
+
+.prodotto:hover .img-4b{
+    display: block;
+}
+
+.img-5b{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: none;
+}
+
+.prodotto:hover .img-5b{
+    display: block;
+}
+
+.img-6b{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: none;
+}
+
+.prodotto:hover .img-6b{
+    display: block;
+}
+
+
+.prodotto img{
+    max-width: 100%;
+}
+
+.sconto{
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    padding: 5px;
+    position: absolute;
+    bottom: 40px;
+}
+
+.sostenibilità{
+    background-color: green;
+    color: white;
+    font-size: 12px;
+    padding: 5px;
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+}
+
+.marca{
+    font-size: 12px;
+    position: absolute;
+}
+
+.tipologia-maglietta{
+    position: absolute;
+    margin-top: 12px;
+}
+
+.prezzo-maglietta{
+    position: absolute;
+    color: red;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.prezzo-iniziale{
+    position: absolute;
+    text-decoration: line-through;
+    margin-top: 30px;
+    margin-left: 50px;
+    font-size: 14px;
+}
+
+.cuore{
+    font-size: 25px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    right: 95px;
+}
+
+.solo-sostenibilità{
+    background-color: green;
+    color: white;
+    font-size: 12px;
+    padding: 5px;
+    position: absolute;
+    bottom: 40px;
+    left: 0px;
+}
+
+
+
+/* Chiusura pagina */
+
+.fondo-pagina{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    margin-top: 30px; 
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.azienda-info{
+    margin-top: 20px;
+}
+
+ul li{
+    list-style: none;
+    display: inline;
+}
+
+.azienda-info ul{
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.dove-trovarci{
+    margin-top: 20px;
+    color: white;
+}
